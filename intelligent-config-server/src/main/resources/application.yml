@@ -1,0 +1,27 @@
+server:
+  port: 7001
+
+spring:
+  application:
+    name: imcloud-config-server
+    cloud:
+      config:
+        server:
+          git:
+            uri: https://github.com/OrangeBadBad/config-repo
+           # searchPaths: config-server/config-repo
+            username:  dashabi
+            password:  pzcdashabi0520git
+#    active: native    #开启本地配置 默认为git
+#  cloud:
+#    config:
+#      server:
+#        native:
+#          search-locations: ../ason-spring-cloud/config-server/config-repo
+ #git管理配置
+
+
+
+
+
+

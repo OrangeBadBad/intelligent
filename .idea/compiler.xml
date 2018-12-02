@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="Intelligent" />
+        <module name="intelligent-common" />
+        <module name="intelligent-config-server" />
+        <module name="Intelligent-config-server" />
+        <module name="intelligent-customer-api" />
+        <module name="intelligent-customer-client" />
+        <module name="intelligent-customer-dao" />
+        <module name="intelligent-customer-service" />
+        <module name="intelligent-db-cache" />
+        <module name="intelligent-db-mysql" />
+        <module name="intelligent-db-redis" />
+        <module name="intelligent-parent" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="intelligent-customer" target="1.8" />
+      <module name="intelligent-db-mongodb" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
